@@ -1,0 +1,1 @@
+Please add data files 'hair_dryer.tsv', 'microwave.tsv', 'pacifier.tsv' prior to running the python programs.
