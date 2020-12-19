@@ -4,8 +4,7 @@ other (MS Word or LaTeX) pdf files via
 [ghostscript](https://www.ghostscript.com/) with command like this:
 
 ```
-gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=combine.pdf -dBATCH
-cover.pdf Making_Dumplings_1.pdf
+gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=combine.pdf -dBATCH cover.pdf Making_Dumplings_1.pdf
 ```
 
 It adds the cover page at the front of the main pdf file
@@ -15,7 +14,7 @@ in both source pdf files. An alternative in LaTeX is to
 use `\includepdf` command with `pdfpages` package to 
 incorporate the cover page into the main pdf file, but
 all the links will get lost during inclusion (however,
-it is said that the `[pax](http://ctan.org/pkg/pax)` package
+it is said that the [pax](http://ctan.org/pkg/pax) package
 can help, see
 [here](https://tex.stackexchange.com/questions/26128/embedding-a-pdf-file-with-clickable-external-links-into-a-latex-document)
 for more information).
